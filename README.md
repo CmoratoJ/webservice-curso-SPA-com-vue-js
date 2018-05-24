@@ -59,6 +59,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Instalação
 
-Criar a pasta Vendor do Código Fonte do webservice:
-Rodar comando dentro do diretório webservice
-composer update
+<p>Criar a pasta Vendor do Código Fonte do webservice:</p>
+<p>Rodar comando dentro do diretório webservice</p>
+<p>composer update</p>
