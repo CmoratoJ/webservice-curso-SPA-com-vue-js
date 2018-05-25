@@ -51,3 +51,23 @@ axios.post(`http://jsonplaceholder.typicode.com/posts`,{
 .catch(e => {
 	this.errors.push(e)
 })
+
+verificar versao do ionic
+ionic info
+
+listagem de comandos ionic
+ionic
+
+instalação do ionic
+npm install -g ionic
+
+iniciar com menu
+
+ionic start praticaApp sidemenu
+
+entrar na aplicação
+cd particaApp
+
+Em ionic.config.json inserir "app_id":"com.caiomorato.praticaapp"
+
+Trabalhar dentro do diretório www
