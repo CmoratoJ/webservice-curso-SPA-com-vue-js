@@ -71,3 +71,13 @@ cd particaApp
 Em ionic.config.json inserir "app_id":"com.caiomorato.praticaapp"
 
 Trabalhar dentro do diretório www
+
+
+alterar o .env do laravel para
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
