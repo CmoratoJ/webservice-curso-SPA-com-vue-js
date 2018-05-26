@@ -81,3 +81,10 @@ DB_PORT=3306
 DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
+
+
+Adicionar uma migração no Laravel
+php artisan make:migration add_imagem_table_users --table=users  
+
+rodar 
+php artisan migrate
