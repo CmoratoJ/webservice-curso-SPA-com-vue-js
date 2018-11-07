@@ -58,36 +58,6 @@ axios.post(`http://jsonplaceholder.typicode.com/posts`,{
 	this.errors.push(e)
 })
 
-verificar versao do ionic
-ionic info
-
-listagem de comandos ionic
-ionic
-
-instalação do ionic
-npm install -g ionic
-
-iniciar com menu
-
-ionic start praticaApp sidemenu
-
-entrar na aplicação
-cd particaApp
-
-Em ionic.config.json inserir "app_id":"com.caiomorato.praticaapp"
-
-Trabalhar dentro do diretório www
-
-
-alterar o .env do laravel para
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
-
 
 Adicionar uma migração no Laravel
 php artisan make:migration add_imagem_table_users --table=users  
@@ -131,3 +101,7 @@ php artisan make:migration create_curtidas_table --create=curtidas
 
 Criar tabelas:
 php artisan migrate
+
+Criar controllers
+
+php artisan make:controller PhotoController
